@@ -1,0 +1,161 @@
+#Body
+{
+
+    width: 100%;
+    height: 76vh;
+    background-color: skyblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#body_upper
+{
+    width: 100%;
+    height: 85%;
+    background-color: skyblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#board
+{
+    width: 65%;
+    height: 90%;
+    background-color: skyblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 3px outset black; 
+}
+
+.row
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_box{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px outset black; 
+}
+/* 
+
+#box_10_19,#box_10_20,#box_10_21
+{
+    background-color: black;
+} */
+
+
+
+#body_lower
+{
+    width: 100%;
+    height: 15%;
+    background-color: skyblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#Start
+{
+     width: 20%;
+    height: 80%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    color: white;
+    font-size: 3vh;
+}
+
+
+
+
+/*   ##########################################################################################  */
+/*   ##########################################################################################  */
+/*                               M O B I L E       S T Y L I N G                                 */
+/*   ##########################################################################################  */
+/*   ##########################################################################################  */
+
+
+
+
+
+
+@media (max-width: 600px) 
+{
+
+
+
+#board
+{
+    width: 65%;
+    height: 90%;
+    background-color: skyblue;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 3px outset black; 
+}
+
+
+
+#Start
+{
+     width: 20%;
+    height: 80%;
+    background-color: black;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    color: white;
+    font-size: 3vh;
+}
+
+
+#ERROR
+{
+
+    width: 70%;
+    height: 90%;
+    background-color: skyblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 0px outset black; 
+
+}
+
+#ERROR_MSG
+{
+
+color: red;
+font-size: 3vh;
+
+}
+
+
+
+}
