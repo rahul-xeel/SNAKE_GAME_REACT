@@ -40,6 +40,34 @@
     border: 3px outset black; 
 }
 
+#OVER
+{
+    width: 50%;
+    height: 90%;
+    background-color: white;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px outset black;
+    gap: 10%; 
+
+}
+
+#GAME_OVER
+{
+    font-size: 10vh;
+    color: red;
+}
+
+
+
+#SCORE
+{
+    font-size: 5vh;
+}
+
+
 .row
 {
     width: 100%;
@@ -85,6 +113,23 @@
     height: 80%;
     background-color: black;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    color: white;
+    font-size: 3vh;
+}
+
+
+
+
+#Restart
+{
+     width: 20%;
+    height: 80%;
+    background-color: black;
+    display: none;
     flex-direction: column;
     justify-content: center;
     align-items: center;
