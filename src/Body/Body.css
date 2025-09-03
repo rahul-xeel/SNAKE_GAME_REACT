@@ -21,6 +21,13 @@
     align-items: center;
 }
 
+#ERROR
+{
+
+    display: none;
+
+}
+
 #board
 {
     width: 65%;
